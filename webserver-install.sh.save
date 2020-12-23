@@ -2,14 +2,21 @@
 # //todo: choosing language
 # //todo choosing endpoint for domains [websites]
 # //todo: changin php sudo update-alternatives --config php
+echo "Selecet Langauge rus/eng"
+read lang
+if [[$lang = rus]]; then
+echo "Вы выбрали Русский Язык Установки"
+dang = РУсский брао
+lang = rus
+fi
+if [[$lang = eng]]; then
+echo "You choosed English Installer"
+lang = eng
+dang = Eng bruvecho "Вы выбрали Русский Язык Установки"
 
-echo "Select PHP Version 7.1 / 7.2 / 7.3 / 7.4: "
-read PHPVER
+fi
 
-echo "You choosed PHP $PHPVER"
-
-
-exit 1
+echo "$test"
 
 sudo apt install software-properties-common curl
 sudo add-apt-repository ppa:nginx/stable
