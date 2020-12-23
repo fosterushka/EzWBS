@@ -8,7 +8,6 @@ read PHPVER
 
 echo "You choosed PHP $PHPVER"
 
-
 exit 1
 
 sudo apt install software-properties-common curl
@@ -19,9 +18,9 @@ sudo apt-get install mc arj dbview libaspell-dev links python zip bash-completio
 sudo apt-get install gcc g++ make
 sudo apt-get install mysql-client mysql-common mysql-server
 sudo apt-get install composer git
-sudo apt-get install php7.2 php7.2-bcmath php7.2-bz2 php7.2-cli php7.2-common php7.2-curl php7.2-dba php7.2-dev php7.2-enchant php7.2-fpm php7.2-gd php7.2-gmp php7.2-imap php7.2-intl php7.2-json php7.2-mbstring php7.2-mysql php7.2-opcache php7.2-phpdbg php7.2-pspell php7.2-readline php7.2-recode php7.2-soap php7.2-tidy php7.2-xml php7.2-xmlrpc php7.2-xsl php7.2-zip whois
+sudo apt-get install php$PHPVER php$PHPVER-bcmath php$PHPVER-bz2 php$PHPVER-cli php$PHPVER-common php$PHPVER-curl php$PHPVER-dba php$PHPVER-dev php$PHPVER-enchant php$PHPVER-fpm php$PHPVER-gd php$PHPVER-gmp php$PHPVER-imap php$PHPVER-intl php$PHPVER-json php$PHPVER-mbstring php$PHPVER-mysql php$PHPVER-opcache php$PHPVER-phpdbg php$PHPVER-pspell php$PHPVER-readline php$PHPVER-recode php$PHPVER-soap php$PHPVER-tidy php$PHPVER-xml php$PHPVER-xmlrpc php$PHPVER-xsl php$PHPVER-zip whois
 sudo apt install nginx nginx-extras
-echo "Php7.2,composer,git,mysql,nginx have been installed"
+echo "Php$PHPVER,composer,git,mysql,nginx have been installed"
 
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
