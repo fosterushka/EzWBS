@@ -6,4 +6,4 @@ Git,NodeJs,PHP7.2, MYSQL 5.7, NGINX is already setup for local development !
 I am planning add selecting languages,php version,destination foolder for websites.
 
 #### Usage
-run in bash ```curl -s https://raw.githubusercontent.com/idevmans/autoInstallWebServer/main/webserver-install.sh | sudo -E bash -
+run in bash ```curl -s https://raw.githubusercontent.com/idevmans/autoInstallWebServer/main/webserver-install.sh | sudo -E bash -```
