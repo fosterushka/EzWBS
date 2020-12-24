@@ -15,7 +15,7 @@ sudo apt-get install php7.2 php7.2-bcmath php7.2-bz2 php7.2-cli php7.2-common ph
 sudo apt install nginx nginx-extras
 echo "Php7.2,composer,git,mysql,nginx have been installed"
 
-
+# //NVM provides you easy manage Node and NPM
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 nvm install node --lts
 
