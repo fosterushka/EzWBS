@@ -23,10 +23,11 @@ Run in BASH
 
 FAQ:
 - Fixing error when starting webserver <br>
-
-`No directory, logging in with HOME=/
-mkdir: cannot create directory ‘//.cache’: Permission denied
--su: 19: /etc/profile.d/wsl-integration.sh: cannot create //.cache/wslu/integration: Directory nonexistent`
+```
+No directory, logging in with HOME=/ <br>
+mkdir: cannot create directory ‘//.cache’: Permission denied <br>
+-su: 19: /etc/profile.d/wsl-integration.sh: cannot create //.cache/wslu/integration: Directory nonexistent
+```
 
 Edit file with sudo `/etc/profile.d/wsl-integration.sh`
 And right after line `WSL_INTEGRATION_CACHE=$HOME/.cache/wslu/integration`
