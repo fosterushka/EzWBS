@@ -2,8 +2,8 @@
 # //todo: choosing language
 # //todo choosing endpoint for domains [websites]
 # //todo: changin php sudo update-alternatives --config php
-
-echo "Select PHP Version 7.1 / 7.2 / 7.3 / 7.4: "
+#!/bin/bash
+echo "Hello there read anytinhg"
 read PHPVER
 
 echo "You choosed PHP $PHPVER"
