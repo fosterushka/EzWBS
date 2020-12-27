@@ -29,9 +29,9 @@ mkdir: cannot create directory ‘//.cache’: Permission denied <br>
 -su: 19: /etc/profile.d/wsl-integration.sh: cannot create //.cache/wslu/integration: Directory nonexistent
 ```
 
-Edit file with sudo `/etc/profile.d/wsl-integration.sh`
-And right after line `WSL_INTEGRATION_CACHE=$HOME/.cache/wslu/integration`
-Paste this one :
+Edit file with sudo `/etc/profile.d/wsl-integration.sh` <br>
+And right after line `WSL_INTEGRATION_CACHE=$HOME/.cache/wslu/integration`<br>
+Paste this one :<br>
 ```
 if [ "${HOME}" = "/" ]; then
   return
