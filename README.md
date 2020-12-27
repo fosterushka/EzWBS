@@ -17,3 +17,22 @@ Git,NodeJs,PHP7.2, MYSQL 5.7, NGINX is already setup for local development !
 Run in BASH
 <br>
 ```curl -s https://raw.githubusercontent.com/idevmans/EzWBS/main/install.sh | sudo -E bash -```
+
+
+
+
+FAQ:
+- Fixing error when starting webserver <br>
+
+`No directory, logging in with HOME=/
+mkdir: cannot create directory ‘//.cache’: Permission denied
+-su: 19: /etc/profile.d/wsl-integration.sh: cannot create //.cache/wslu/integration: Directory nonexistent`
+
+Edit file with sudo `/etc/profile.d/wsl-integration.sh`
+And right after line `WSL_INTEGRATION_CACHE=$HOME/.cache/wslu/integration`
+Paste this one :
+```
+if [ "${HOME}" = "/" ]; then
+  return
+fi
+```
