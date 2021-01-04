@@ -3,6 +3,13 @@
 # //todo choosing endpoint for domains [websites]
 # //todo: changin php sudo update-alternatives --config php
 
+set -e
+
+if [[ $EUID -ne 0 ]]; then
+	echo "Make sure run as root (with sudo)"
+	exit 1
+fi
+
 sudo apt install software-properties-common curl
 sudo add-apt-repository ppa:nginx/stable
 sudo add-apt-repository ppa:ondrej/php
