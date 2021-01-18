@@ -2,6 +2,22 @@
 # //todo: choosing language
 # //todo choosing endpoint for domains [websites]
 # //todo: changing php sudo update-alternatives --config php
+# // sudo apt install redis
+# // alias webstart, webstop
+#
+# //todo Redis manger GUI
+# git clone https://github.com/ErikDubbelboer/phpRedisAdmin.git
+# cd phpRedisAdmin
+# git clone https://github.com/nrk/predis.git vendor
+#
+# touch .wslconfig Introduce %UserProfile%\.wslconfig file for tweaking WSL2 settings
+# [wsl2]
+#kernel=<path>              # An absolute Windows path to a custom Linux kernel.
+#memory=<size>              # How much memory to assign to the WSL2 VM.
+#processors=<number>        # How many processors to assign to the WSL2 VM.
+#swap=<size>                # How much swap space to add to the WSL2 VM. 0 for no swap file.
+#swapFile=<path>            # An absolute Windows path to the swap vhd.
+#localhostForwarding=<bool> # Boolean specifying if ports bound to wildcard or localhost in the WSL2 VM should be connectable from the host via localhost:port (default true).
 
 set -e
 
@@ -32,5 +48,7 @@ echo "Now node will be installed"
 sleep 1
 # //NVM provides you easy manage Node and NPM
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
-nvm install node --lts
+echo "Restart terminal and do this command for install latest npm version nvm install node --lts"
+sleep 3
+echo "Installation compleate enjoy !"
 
