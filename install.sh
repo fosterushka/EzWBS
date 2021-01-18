@@ -3,12 +3,12 @@
 # //todo choosing endpoint for domains [websites]
 # //todo: changing php sudo update-alternatives --config php
 
-#set -e
-#
-#if [[ $EUID -ne 0 ]]; then
-#	echo "Make sure run as root (with sudo)"
-#	exit 1
-#fi
+set -e
+
+if [[ $EUID -ne 0 ]]; then
+	echo "Make sure run as root (with sudo)"
+	exit 1
+fi
 
 read -p "Choose php version 5.6 to 8.0, recommend 7.4 : " phpVer
 echo "You choosed php $phpVer";
