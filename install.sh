@@ -11,9 +11,7 @@
 #fi
 
 read -p "Choose php version 5.6 to 8.0, recommend 7.4 : " phpVer
-sleep 1
 echo "You choosed php $phpVer";
-sleep 1
 echo "Before Installtion start please type your password for install all software as root"
 sleep 1
 
