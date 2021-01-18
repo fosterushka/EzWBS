@@ -13,7 +13,6 @@ fi
 read -p "Choose php version 5.6 to 8.0, recommend 7.4 : " phpVer
 echo "You choosed php $phpVer";
 echo "Before Installtion start please type your password for install all software as root"
-sleep 1
 
 sudo apt install software-properties-common curl -y
 sudo add-apt-repository ppa:nginx/stable -y
