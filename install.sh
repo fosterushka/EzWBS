@@ -9,7 +9,7 @@ if [[ $EUID -ne 0 ]]; then
 	echo "Make sure run as root (with sudo)"
 	exit 1
 fi
-
+echo "update 0.0.17"
 read -p "Choose php version 5.6 to 8.0, recommend 7.4 : " phpVer
 echo "You choosed php $phpVer";
 echo "Before Installtion start please type your password for install all software as root"
