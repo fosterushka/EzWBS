@@ -37,3 +37,8 @@ if [ "${HOME}" = "/" ]; then
   return
 fi
 ```
+To get access from windows explorer (file manager) paste this paste in explorer <br>
+```
+where $ver - your version
+\\wsl$\Ubuntu-$ver
+```
