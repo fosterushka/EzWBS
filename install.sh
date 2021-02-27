@@ -10,6 +10,7 @@
 # cd phpRedisAdmin
 # git clone https://github.com/nrk/predis.git vendor
 #
+# nginx for laravel | try_files $uri $uri/ /index.php?$query_string;
 
 set -e
 
