@@ -16,10 +16,11 @@ Git,NodeJs,PHP7.2, MYSQL 5.7, NGINX is already setup for local development !
 #### Usage
 Run in BASH
 <br>
-```curl -s https://raw.githubusercontent.com/idevmans/EzWBS/main/install.sh | sudo -E bash -```
-
-
-
+```git clone https://github.com/idevmans/EzWBS.git
+open dir with cloned project
+chmod +x install.sh
+sh install.sh Enjoy
+```
 
 FAQ:
 - Fixing error when starting webserver <br>
