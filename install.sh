@@ -10,15 +10,7 @@
 # cd phpRedisAdmin
 # git clone https://github.com/nrk/predis.git vendor
 #
-# touch .wslconfig Introduce %UserProfile%\.wslconfig file for tweaking WSL2 settings
-# [wsl2]
-#kernel=<path>              # An absolute Windows path to a custom Linux kernel.
-#memory=<size>              # How much memory to assign to the WSL2 VM.
-#processors=<number>        # How many processors to assign to the WSL2 VM.
-#swap=<size>                # How much swap space to add to the WSL2 VM. 0 for no swap file.
-#swapFile=<path>            # An absolute Windows path to the swap vhd.
-#localhostForwarding=<bool> # Boolean specifying if ports bound to wildcard or localhost in the WSL2 VM should be connectable from the host via localhost:port (default true).
-#update system check if repository have a new version then pull changes or do a command which will do an update
+# nginx for laravel | try_files $uri $uri/ /index.php?$query_string;
 
 set -e
 

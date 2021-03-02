@@ -1,7 +1,7 @@
 # EzWBS - Easy Web Server
 For stable work use 18.04 [WSL2 Inlcuded]
 <br>
-Git,NodeJs,PHP7.2, MYSQL 5.7, NGINX is already setup for local development ! 
+Git,NodeJs,PHP, MYSQL 5.7, NGINX is already setup for local development ! 
 <br>
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/idevmans/EzWBS)
 
@@ -16,10 +16,11 @@ Git,NodeJs,PHP7.2, MYSQL 5.7, NGINX is already setup for local development !
 #### Usage
 Run in BASH
 <br>
-```curl -s https://raw.githubusercontent.com/idevmans/EzWBS/main/install.sh | sudo -E bash -```
-
-
-
+```git clone https://github.com/idevmans/EzWBS.git
+open dir with cloned project
+chmod +x install.sh
+sh install.sh Enjoy
+```
 
 FAQ:
 - Fixing error when starting webserver <br>
@@ -37,7 +38,7 @@ if [ "${HOME}" = "/" ]; then
   return
 fi
 ```
-To get access from windows explorer (file manager) paste this paste in explorer <br>
+To get access from windows explorer (file manager) paste this in explorer <br>
 ```
 where $ver - your version
 \\wsl$\Ubuntu-$ver
