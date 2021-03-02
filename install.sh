@@ -18,6 +18,7 @@
 #swap=<size>                # How much swap space to add to the WSL2 VM. 0 for no swap file.
 #swapFile=<path>            # An absolute Windows path to the swap vhd.
 #localhostForwarding=<bool> # Boolean specifying if ports bound to wildcard or localhost in the WSL2 VM should be connectable from the host via localhost:port (default true).
+#update system check if repository have a new version then pull changes or do a command which will do an update
 
 set -e
 
@@ -25,7 +26,7 @@ if [[ $EUID -ne 0 ]]; then
 	echo "Make sure run as root (with sudo)"
 	exit 1
 fi
-echo "update 0.0.17"
+echo "update 0.0.18"
 read -p "Choose php version 5.6 to 8.0, recommend 7.4 : " phpVer
 echo "You choosed php $phpVer";
 echo "Before Installtion start please type your password for install all software as root"
