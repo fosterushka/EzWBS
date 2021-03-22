@@ -4,20 +4,23 @@
 # //todo: changing php sudo update-alternatives --config php
 # // sudo apt install redis
 # // alias webstart, webstop
-#
 # //todo Redis manger GUI
 # git clone https://github.com/ErikDubbelboer/phpRedisAdmin.git
 # cd phpRedisAdmin
 # git clone https://github.com/nrk/predis.git vendor
-#
 # nginx for laravel | try_files $uri $uri/ /index.php?$query_string;
+#This small gist will add automaticaly wsl.host to hosts file and you will be able to communicate with your windows system, using wsl.host as address.
+#After creating your wsl do next:
+#Place startup.sh at /startup.sh and run chmod +x /startup.sh
+#Run visudo
+#Add %sudo ALL=NOPASSWD: /startup.sh to end of file
+#Add sudo /startup.sh at end of file /etc/profile
+#That's all. After first login in wsl after system start wsl.host will point to your windows host
+# nvm install $ver, nvm list, nvm use $ver
 
-set -e
+Inspired by https://gist.github.com/irazasyed/a7b0a079e7727a4315b9
 
-if [[ $EUID -ne 0 ]]; then
-	echo "Make sure run as root (with sudo)"
-	exit 1
-fi
+
 echo "update 0.0.18"
 read -p "Choose php version 5.6 to 8.0, recommend 7.4 : " phpVer
 echo "You choosed php $phpVer";
