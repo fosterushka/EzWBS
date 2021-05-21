@@ -9,7 +9,7 @@ Git,NodeJs,PHP, MYSQL 5.7, NGINX is already setup for local development ! [Env f
 ###EzWBS ToDo list
 
 - [ ] Version selection [PHP,MYSQL]
-- [ ] Easy NODE.JS version management with [NVM](https://github.com/nvm-sh/nvm)
+- [x] Easy NODE.JS version management with [NVM](https://github.com/nvm-sh/nvm)
 - [ ] Checking for Dependencies
 - [ ] Choosing language [ru,eng,se,pl,tr]
 - [ ] From SH to MAKE
