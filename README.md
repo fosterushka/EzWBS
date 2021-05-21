@@ -17,7 +17,7 @@ Git,NodeJs,PHP, MYSQL 5.7, NGINX is already setup for local development ! [Env f
 - [ ] Auto configuration everysingle config by bash
 - [ ] Standlone app such as OpenServer for Windows but Linux and OS Version
 - [ ] Flexible settings
-- [x] <s>Docker - At this moment Docker should work with wsl2 out of the box</s>
+- [x] Docker - At this moment Docker should work with wsl2 out of the box
 
 #### Usage
 Run in BASH
