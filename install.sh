@@ -17,11 +17,12 @@
 #Add sudo /startup.sh at end of file /etc/profile
 #That's all. After first login in wsl after system start wsl.host will point to your windows host
 # nvm install $ver, nvm list, nvm use $ver
+#Inspired by https://gist.github.com/irazasyed/a7b0a079e7727a4315b9 and openserver
+#add to .gitconfig for split work and home [includeIf "gitdir:/var/www/all/"]
+    #                                               path = ~/work/.gitconfig
 
-Inspired by https://gist.github.com/irazasyed/a7b0a079e7727a4315b9
 
-
-echo "update 0.0.18"
+echo "update 0.0.19"
 read -p "Choose php version 5.6 to 8.0, recommend 7.4 : " phpVer
 echo "You choosed php $phpVer";
 echo "Before Installtion please type your password for install all software as root"
