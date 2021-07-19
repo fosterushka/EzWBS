@@ -1,0 +1,12 @@
+alias composer5v1="php5.6 ~/bin/composerone"
+alias composer74v1="php7.4 ~/bin/composerone"
+alias composer74v2="php7.4 ~/bin/composertwo"
+alias composer72v1="php7.2 ~/bin/composerone"
+alias composer8v2="php8.0 ~/bin/composertwo"
+alias dlwebsite="wget -r -k -l 7 -p -E -nc -erobots=off --user-agent='Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/5З7.З6 (KHTML, like Gecko) Chrome/60.0.З112.11З Safari/5З7.36'"
+alias webstart="sudo service nginx start && sudo service php7.2-fpm start && sudo service mysql start && sudo service php7.4-fpm start"
+alias webstop="sudo service nginx stop && sudo service php7.2-fpm stop && sudo service mysql stop && sudo service php7.4-fpm stop"
+alias off="wsl.exe --shutdown"
+alias phpcv='sudo update-alternatives --config php'
+alias cdws="cd /var/www/all/"
+alias webhelp="printf 'webstart - web server start,webstop - webserver off,off - wsl2 shutdown,phpcv - change php version,cdws - open web server foolder"
