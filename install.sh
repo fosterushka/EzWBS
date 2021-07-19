@@ -44,7 +44,7 @@ sleep 1
 echo "Now nodejs will be installed"
 sleep 1
 # //NVM provides you easy way to manage NodeJS and NPM version
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 echo "Restart terminal and do this command for install latest NPM | nvm install node --lts"
 sleep 3
 echo "Installation complete enjoy !"

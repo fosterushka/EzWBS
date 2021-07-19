@@ -9,14 +9,16 @@ Git,NodeJs,PHP, MYSQL 5.7, NGINX is already setup for local development ! [Env f
 ###EzWBS ToDo list
 
 - [ ] Version selection [PHP,MYSQL]
+- [x] Easy NODE.JS version management with [NVM](https://github.com/nvm-sh/nvm)
 - [ ] Checking for Dependencies
 - [ ] Choosing language [ru,eng,se,pl,tr]
 - [ ] From SH to MAKE
 - [ ] Support for Golang,Java,Python web frameworks
 - [ ] Auto configuration everysingle config by bash
 - [ ] Standlone app such as OpenServer for Windows but Linux and OS Version
-- [ ] Flexiable settings
-- <s>[ ] Docker - At this moment Docker should work with wsl2 out of the box</s>
+- [x] Flexible settings
+- [x] Docker - At this moment Docker should work with wsl2 out of the box
+- [x] Aliases (short commands)
 
 #### Usage
 Run in BASH
@@ -47,4 +49,16 @@ To get access from windows explorer (file manager) paste this in explorer <br>
 ```
 where $ver - your version
 \\wsl$\Ubuntu-$ver
+```
+
+#Shortcut cmds
+```
+webhelp - print all available commands
+webstart - web server start
+webstop - webserver off
+off - wsl2 shutdown
+phpcv - change cli php version
+cdws - open web root foolder
+composer[phpVersion]v[versionComposer] at this moment hardcoded
+example: composer74v2
 ```
