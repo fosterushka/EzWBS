@@ -21,6 +21,7 @@ Git,NodeJs,PHP, MYSQL 5.7, NGINX is already setup for local development ! [Env f
 - [x] Aliases (short commands)
 - [ ] Custom webdir (default: /var/www/all/$anywebsitename.localhost)
 - [x] No need to change hosts file.
+- [ ] Support for Mac m1 (Since i switch to m1, looking for make it with brew)
 
 #### Usage
 Run in BASH
