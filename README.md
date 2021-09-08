@@ -19,6 +19,8 @@ Git,NodeJs,PHP, MYSQL 5.7, NGINX is already setup for local development ! [Env f
 - [x] Flexible settings
 - [x] Docker - At this moment Docker should work with wsl2 out of the box
 - [x] Aliases (short commands)
+- [ ] Custom webdir (default: /var/www/all/$anywebsitename.localhost)
+- [x] No need to change hosts file.
 
 #### Usage
 Run in BASH
