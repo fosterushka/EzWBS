@@ -1,7 +1,9 @@
 # EzWBS - Easy Web Server
 For stable work use 18.04 [WSL2 Inlcuded]
+Tested on 22.02 as well
+For different versions of mysql highlt recommend you to use docker
 <br>
-Git,NodeJs,PHP, MYSQL 5.7, NGINX is already setup for local development ! [Env for Laravel developer]
+Git,NodeJs,PHP, MYSQL NGINX is already setup for local development ! [Env for Laravel developer]
 <br>
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/idevmans/EzWBS)
 
@@ -11,7 +13,6 @@ Git,NodeJs,PHP, MYSQL 5.7, NGINX is already setup for local development ! [Env f
 - [ ] Version selection [PHP,MYSQL]
 - [x] Easy NODE.JS version management with [NVM](https://github.com/nvm-sh/nvm)
 - [ ] Checking for Dependencies
-- [ ] Choosing language [ru,eng,se,pl,tr]
 - [ ] From SH to MAKE
 - [ ] Support for Golang,Java,Python web frameworks
 - [ ] Auto configuration everysingle config by bash
@@ -26,10 +27,11 @@ Git,NodeJs,PHP, MYSQL 5.7, NGINX is already setup for local development ! [Env f
 #### Usage
 Run in BASH
 <br>
-```git clone https://github.com/idevmans/EzWBS.git
-open dir with cloned project
-chmod +x install.sh
-sh install.sh Enjoy
+```
+1. git clone https://github.com/idevmans/EzWBS.git
+2. open dir with cloned project
+3. chmod +x install.sh
+4. sh install.sh Enjoy
 ```
 
 FAQ:
