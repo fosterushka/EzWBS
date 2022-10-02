@@ -23,7 +23,7 @@
 
 
 echo "update 0.0.20"
-read -p "Choose php version 5.6 to 8.0, recommend 7.4 : " phpVer
+read -p "Choose php version 5.6 to 8.1, recommend 8.0 : " phpVer
 echo "You choosed php $phpVer";
 echo "Before Installtion please type your password for install all software as root"
 sleep 1
@@ -50,7 +50,7 @@ sleep 1
 echo "Now nodejs will be installed"
 sleep 1
 # //NVM provides you easy way to manage NodeJS and NPM version
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 echo "Restart terminal and do this command for install latest NPM | nvm install node --lts"
 sleep 3
 echo "Installation complete enjoy !"
