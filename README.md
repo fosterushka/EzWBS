@@ -1,6 +1,5 @@
 # EzWBS - Easy Web Server
-For stable work use 18.04 [WSL2 Inlcuded]
-Tested on 22.02 as well
+Suitable for WSL
 For different versions of mysql highlt recommend you to use docker
 <br>
 Git,NodeJs,PHP, MYSQL NGINX is already setup for local development ! [Env for Laravel developer]
@@ -22,7 +21,7 @@ Git,NodeJs,PHP, MYSQL NGINX is already setup for local development ! [Env for La
 - [x] Aliases (short commands)
 - [ ] Custom webdir (default: /var/www/all/$anywebsitename.localhost)
 - [x] No need to change hosts file.
-- [ ] Support for Mac m1 (Since i switch to m1, looking for make it with brew)
+- [x] Support for Mac m1 (Use Laravel Valet)
 
 #### Usage
 Run in BASH
