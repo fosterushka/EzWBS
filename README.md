@@ -9,13 +9,11 @@ Git,NodeJs,PHP, MYSQL NGINX is already setup for local development ! [Env for La
 <br>
 ###EzWBS ToDo list
 
-- [ ] Version selection [PHP,MYSQL]
+- [x] Version selection [PHP,MYSQL]
 - [x] Easy NODE.JS version management with [NVM](https://github.com/nvm-sh/nvm)
-- [ ] Checking for Dependencies
+- [x] Checking for Dependencies
 - [ ] From SH to MAKE
 - [ ] Support for Golang,Java,Python web frameworks
-- [ ] Auto configuration everysingle config by bash
-- [ ] Standlone app such as OpenServer for Windows but Linux and OS Version
 - [x] Flexible settings
 - [x] Docker - At this moment Docker should work with wsl2 out of the box
 - [x] Aliases (short commands)
