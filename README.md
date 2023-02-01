@@ -1,6 +1,7 @@
-# EzWBS - Easy Web Server
+# DEPRECATED USE FOR [LINUX](https://github.com/cpriego/valet-linux) OR [MAC](https://github.com/laravel/valet) VALET
+### EzWBS - Easy Web Server
 Suitable for WSL
-For different versions of mysql highlt recommend you to use docker
+For different versions of mysql highl recommend you to use docker
 <br>
 Git,NodeJs,PHP, MYSQL NGINX is already setup for local development ! [Env for Laravel developer]
 <br>
